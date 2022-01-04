@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 public class CustomerService {
 
     private final CustomerRepository customerRepository;
-private final CustomerDtoConverter customerDtoConverter;
+    private final CustomerDtoConverter customerDtoConverter;
 
     public CustomerService(CustomerRepository customerRepository, CustomerDtoConverter customerDtoConverter) {
         this.customerRepository = customerRepository;
