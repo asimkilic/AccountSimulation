@@ -19,12 +19,14 @@ public class AccountService {
     private final CustomerService customerService;
     private final AccountDtoConverter accountDtoConverter;
 
+
     public AccountService(AccountRepository accountRepository,
                           CustomerService customerService,
                           AccountDtoConverter accountDtoConverter) {
         this.accountRepository = accountRepository;
         this.customerService = customerService;
         this.accountDtoConverter = accountDtoConverter;
+
     }
 
     public AccountDto createAccount(CreateAccountRequest createAccountRequest) {
@@ -34,10 +36,13 @@ public class AccountService {
                 createAccountRequest.getInitialCredit(),
                 LocalDateTime.now());
         if (createAccountRequest.getInitialCredit().compareTo(BigDecimal.ZERO) > 0) {
-            Transaction transaction =   new Transaction(createAccountRequest.getInitialCredit(),account);
+            Transaction transaction = new Transaction(createAccountRequest.getInitialCredit(), account);
             account.getTransaction().add(transaction);
         }
         return accountDtoConverter.convert(accountRepository.save(account));
     }
+
+
+
 
 }
