@@ -136,5 +136,6 @@ docker build . -t account:1.0
 docker run --name account -d -p 9090:8080 account:1.0
 
 docker system prune
+docker container rm -f < imageid >
 ```
 
