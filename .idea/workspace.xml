@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="beb00d14-50ae-4d4d-a4e6-a4d58f8e5af3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/AccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/AccountCustomerDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/AccountCustomerDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/AccountDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/AccountDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CreateAccountRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CreateAccountRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CustomerAccountDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CustomerAccountDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CustomerDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CustomerDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/TransactionDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/TransactionDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/AccountDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/AccountDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/CustomerAccountDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/CustomerAccountDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/CustomerDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/CustomerDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/TransactionDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/TransactionDtoConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/exception/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/exception/CustomerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/exception/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/exception/GeneralExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Account.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Customer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Transaction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Transaction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/AccountApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/AccountApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/IntegrationTestSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/IntegrationTestSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/TestSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/TestSupport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/controller/AccountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/controller/AccountControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/controller/CustomerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/service/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/service/CustomerServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Kotlin Data Class" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="23C7H62MYlztKm0gbRyriFTTRzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/account-api" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.asimkilic.account.dto" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.asimkilic.account.service" />
+      <recent name="com.asimkilic.account.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountControllerTest">
+    <configuration name="AccountControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asimkilic.account.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.asimkilic.account.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.asimkilic.account.controller.AccountControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountControllerTest.testCreateAccount_whenCustomerIdExist_shouldCreateAccountAndReturnAccountDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asimkilic.account.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.asimkilic.account.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.asimkilic.account.controller.AccountControllerTest" />
+      <option name="METHOD_NAME" value="testCreateAccount_whenCustomerIdExist_shouldCreateAccountAndReturnAccountDto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asimkilic.account.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.asimkilic.account.service" />
+      <option name="MAIN_CLASS_NAME" value="com.asimkilic.account.service.CustomerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServiceTest.testGetCustomerById_whenCustomerIdExists_shouldReturnCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.asimkilic.account.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.asimkilic.account.service" />
+      <option name="MAIN_CLASS_NAME" value="com.asimkilic.account.service.CustomerServiceTest" />
+      <option name="METHOD_NAME" value="testGetCustomerById_whenCustomerIdExists_shouldReturnCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="account" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.asimkilic.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountControllerTest" />
+        <item itemvalue="JUnit.AccountControllerTest.testCreateAccount_whenCustomerIdExist_shouldCreateAccountAndReturnAccountDto" />
+        <item itemvalue="Spring Boot.AccountApplication" />
+        <item itemvalue="JUnit.CustomerServiceTest" />
+        <item itemvalue="JUnit.CustomerServiceTest.testGetCustomerById_whenCustomerIdExists_shouldReturnCustomer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="beb00d14-50ae-4d4d-a4e6-a4d58f8e5af3" name="Changes" comment="" />
+      <created>1641226136462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641226136462</updated>
+      <workItem from="1641226139380" duration="1894000" />
+      <workItem from="1641230824847" duration="1146000" />
+      <workItem from="1641241672391" duration="10927000" />
+      <workItem from="1641301498463" duration="7021000" />
+      <workItem from="1641316976724" duration="8645000" />
+      <workItem from="1641390074413" duration="2125000" />
+      <workItem from="1641393004349" duration="2049000" />
+      <workItem from="1641493715030" duration="3125000" />
+      <workItem from="1641567863336" duration="7364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
