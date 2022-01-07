@@ -1,7 +1,7 @@
 package com.asimkilic.account.service;
 
 import com.asimkilic.account.dto.CustomerDto;
-import com.asimkilic.account.dto.CustomerDtoConverter;
+import com.asimkilic.account.dto.converter.CustomerDtoConverter;
 import com.asimkilic.account.exception.CustomerNotFoundException;
 import com.asimkilic.account.model.Customer;
 import com.asimkilic.account.repository.CustomerRepository;

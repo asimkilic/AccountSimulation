@@ -1,5 +1,6 @@
-package com.asimkilic.account.dto;
+package com.asimkilic.account.dto.converter;
 
+import com.asimkilic.account.dto.CustomerAccountDto;
 import com.asimkilic.account.model.Account;
 import org.springframework.stereotype.Component;
 
@@ -18,7 +19,10 @@ public class CustomerAccountDtoConverter {
         return new CustomerAccountDto(
                 Objects.requireNonNull(from.getId()),
                 from.getBalance(),
-                from.getTransaction().stream().map(transactionDtoConverter::convertToTransactionDto).collect(Collectors.toSet()),
+                from.getTransaction()
+                        .stream()
+                        .map(transactionDtoConverter::convertToTransactionDto)
+                        .collect(Collectors.toSet()),
                 from.getCreationDate());
 
     }

@@ -1,22 +1,20 @@
 package com.asimkilic.account;
 
-import com.asimkilic.account.model.Account;
+
 import com.asimkilic.account.model.Customer;
 import com.asimkilic.account.repository.CustomerRepository;
-import kotlin.collections.SetsKt;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.info.License;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
+
 import java.time.Clock;
-import java.time.LocalDateTime;
-import java.util.HashSet;
-import java.util.UUID;
-import java.util.function.Supplier;
+
 
 @SpringBootApplication
 public class AccountApplication implements CommandLineRunner {
@@ -31,11 +29,25 @@ public class AccountApplication implements CommandLineRunner {
         SpringApplication.run(AccountApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        Customer customer = customerRepository.save(new Customer("", "Asım", "KILIÇ", new HashSet<>()));
-        System.out.println(customer + " ------ id: " + customer.getId());
+
+    @Bean
+    public OpenAPI customOpenAPI(@Value("${application-description}") String description, @Value("${application-version}") String version) {
+        return new OpenAPI()
+                .info(new Info()
+                        .title("Account API")
+                        .version(version)
+                        .description(description)
+                        .license(new License().name("Account API licence")));
+    }
+
+    @Bean
+    public Clock clock() {
+        return Clock.systemUTC();
     }
 
 
+    public void run(String... args) {
+        Customer customer = customerRepository.save(new Customer("Asım", "KILIÇ"));
+        System.out.println(customer);
+    }
 }

@@ -1,5 +1,6 @@
-package com.asimkilic.account.dto;
+package com.asimkilic.account.dto.converter;
 
+import com.asimkilic.account.dto.TransactionDto;
 import com.asimkilic.account.model.Transaction;
 import org.springframework.stereotype.Component;
 
