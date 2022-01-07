@@ -5,47 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb00d14-50ae-4d4d-a4e6-a4d58f8e5af3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/AccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/AccountCustomerDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/AccountCustomerDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/AccountDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/AccountDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CreateAccountRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CreateAccountRequest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CustomerAccountDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CustomerAccountDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/CustomerDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/CustomerDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/TransactionDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/TransactionDto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/AccountDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/AccountDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/CustomerAccountDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/CustomerAccountDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/CustomerDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/CustomerDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/dto/converter/TransactionDtoConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/dto/converter/TransactionDtoConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/exception/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/exception/CustomerNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/exception/GeneralExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/exception/GeneralExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Account.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Account.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Customer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/model/Transaction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/model/Transaction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/repository/TransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asimkilic/account/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/java/com/asimkilic/account/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/AccountApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/AccountApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/IntegrationTestSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/IntegrationTestSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/TestSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/TestSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/controller/AccountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/controller/AccountControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/controller/CustomerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/controller/CustomerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/service/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/service/AccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/asimkilic/account/service/CustomerServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-api/src/test/java/com/asimkilic/account/service/CustomerServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +55,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/account-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/account-api/pom.xml" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -211,6 +171,8 @@
       <workItem from="1641393004349" duration="2049000" />
       <workItem from="1641493715030" duration="3125000" />
       <workItem from="1641567863336" duration="7364000" />
+      <workItem from="1641583843229" duration="85000" />
+      <workItem from="1641583934519" duration="47000" />
     </task>
     <servers />
   </component>

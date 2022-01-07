@@ -7,5 +7,5 @@ services:
       context: .
     container_name: account
     ports:
-      - 9090:8080
+      - 8080:8080
 

@@ -48,6 +48,14 @@ public class AccountApplication implements CommandLineRunner {
 
     public void run(String... args) {
         Customer customer = customerRepository.save(new Customer("Asım", "KILIÇ"));
+        Customer customer2 = customerRepository.save(new Customer("Muratcan", "BABA"));
+        Customer customer3 = customerRepository.save(new Customer("Enes", "ZEHİR"));
+        Customer customer4 = customerRepository.save(new Customer("Mert", "PALACIOĞLU"));
+        Customer customer5 = customerRepository.save(new Customer("Mert", "ÖZDEMİR"));
         System.out.println(customer);
+        System.out.println(customer2);
+        System.out.println(customer3);
+        System.out.println(customer4);
+        System.out.println(customer5);
     }
 }
